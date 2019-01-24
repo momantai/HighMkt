@@ -1,0 +1,21 @@
+/* Cabecera */
+.fa-whatsapp {
+    color: green !important;
+}
+
+.fa-clock {
+    color: gray !important;
+}
+
+#header .header-nav.header-nav-line nav > ul:not(:hover) li > a.active::before {
+    background: #5ebdb3;
+
+ }
+
+a:hover.dropdown-item::before {
+    background: #5ebdb3 !important;
+}
+
+.linklenguage {
+    
+}
