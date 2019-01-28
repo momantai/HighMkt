@@ -21,10 +21,10 @@
             <div class="container">
                 <div class="row align-items-center mb-5">
                     <div class="col-lg-7 pr-5 " data-="fadeInRightShorter">
-                        <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Who </strong>We Are</h2>
-                        <p class="lead pr-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enikklam id valorem ipsum dolor sit amet, consectetur adipiscinLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p class="mb-4">Phasellus blandit massa enim. Nullam id varius elit. blandit massa enim  d varius blandit massa enimariusi d varius elit. blandit massa enimariud varius elit. blandit massa enimariusisi ariusius.</p>
-                        <a class="btn btn-light text-uppercase text-primary text-1 py-2 px-4 mb-1" href="#"><strong>VIEW MORE</strong><i class="fas fa-chevron-right text-2 pl-2"></i></a>
+                        <h2 class="font-weight-normal text-6 mb-4"><?php echo $lang['whowearetext'] ?></h2>
+                        <p class="lead pr-2 mb-4"><?php echo $lang['whoweare'][0] ?></p>
+                        <p class="mb-4"><?php echo $lang['whoweare'][1] ?></p>
+                        <!-- <a class="btn btn-light text-uppercase text-primary text-1 py-2 px-4 mb-1" href="#"><strong>VIEW MORE</strong><i class="fas fa-chevron-right text-2 pl-2"></i></a> -->
                     </div>
                     <div class="col-lg-5">
                         <div class="row mt-5 mt-lg-0">
@@ -46,7 +46,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col text-center " data-="fadeInUpShorter" data--delay="200">
-                            <h2 class="font-weight-normal text-6 mb-5">Our <strong class="font-weight-extra-bold">Services</strong></h2>
+                            <h2 class="font-weight-normal text-6 mb-5"><?php echo $lang['ourservicestext'] ?></h2>
                         </div>
                     </div>
 
@@ -54,33 +54,33 @@
                         <div class="col-lg-4 mb-4 " data-="fadeInLeftShorter" data--delay="400">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
-                                    <i class="icon-user-following icons text-color-primary"></i>
+                                    <i class="icon-service icon-dgraph"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="mb-2 font-weight-bold">Customer Support</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+                                    <h4 class="mb-2 font-weight-bold"><?php echo $lang['name-design-graph'] ?></h4>
+                                    <p><?php echo $lang['xt-design-graph'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 mb-4 " data-="fadeIn" data--delay="200">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
-                                    <i class="icon-layers icons text-color-primary"></i>
+                                <i class="icon-service icon-dweb"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="mb-2 font-weight-bold">Sliders</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+                                    <h4 class="mb-2 font-weight-bold"><?php echo $lang['name-web-design'] ?></h4>
+                                    <p><?php echo $lang['xt-web-design'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 mb-4 " data-="fadeInRightShorter" data--delay="400">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
-                                    <i class="icon-calculator icons text-color-primary"></i>
+                                <i class="icon-service icon-photo"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="mb-2 font-weight-bold">HTML5</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+                                    <h4 class="mb-2 font-weight-bold"><?php echo $lang['name-photograph'] ?></h4>
+                                    <p><?php echo $lang['xt-photograph'] ?></p>
                                 </div>
                             </div>
                         </div>
@@ -90,33 +90,33 @@
                         <div class="col-lg-4 mb-4 mb-lg-0 " data-="fadeInLeftShorter" data--delay="400">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
-                                    <i class="icon-star icons text-color-primary"></i>
+                                <i class="icon-service icon-ads"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="mb-2 font-weight-bold">Icons</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+                                    <h4 class="mb-2 font-weight-bold"><?php echo $lang['name-ads'] ?></h4>
+                                    <p><?php echo $lang['xt-ads'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 mb-4 mb-lg-0 " data-="fadeIn" data--delay="200">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
-                                    <i class="icon-drop icons text-color-primary"></i>
+                                <i class="icon-service icon-social"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="mb-2 font-weight-bold">Colors</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+                                    <h4 class="mb-2 font-weight-bold"><?php echo $lang['name-social'] ?></h4>
+                                    <p><?php echo $lang['xt-social'] ?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 " data-="fadeInRightShorter" data--delay="400">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
-                                    <i class="icon-mouse icons text-color-primary"></i>
+                                <i class="icon-service icon-vip"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="mb-2 font-weight-bold">Buttons</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+                                    <h4 class="mb-2 font-weight-bold"><?php echo $lang['name-special'] ?></h4>
+                                    <p><?php echo $lang['xt-special'] ?></p>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@
             <div class="container">
                 <div class="row pt-4 mt-5">
                     <div class="col-lg-12 text-center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="400">
-                        <h2 class="font-weight-normal text-6 mb-5">Our <strong class="font-weight-extra-bold">Prices</strong></h2>
+                        <h2 class="font-weight-normal text-6 mb-5"><?php echo $lang['ourprices'] ?></h2>
                     </div>
                 </div>
 

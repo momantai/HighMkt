@@ -1,0 +1,26 @@
+.icon-service {
+    width: 56px;
+    height: 57px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+    .icon-dgraph {
+        background-image: url('./icons/dgraph.svg');
+    }
+    .icon-dweb {
+        background-image: url('./icons/dweb.svg');
+    }
+    .icon-ads {
+        background-image: url('./icons/ads.svg');
+    }
+    .icon-social {
+        background-image: url('./icons/social.svg');
+    }
+    .icon-photo {
+        background-image: url('./icons/photo.svg');
+    }
+    .icon-vip {
+        background-image: url('./icons/vip.svg');
+    }

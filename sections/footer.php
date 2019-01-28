@@ -18,7 +18,7 @@
 							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
 								<nav id="sub-menu">
 									<ul>
-										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contacto</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> <?php echo $lang['menu-option-contact'] ?></a></li>
 									</ul>
 								</nav>
 							</div>
@@ -35,7 +35,7 @@
 		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
 		<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
 		<script src="vendor/popper/umd/popper.min.js"></script>
-		<!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 		<script src="vendor/common/common.min.js"></script>
 		<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
 		<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
@@ -59,6 +59,9 @@
 		
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+		<script>
 </body>
 
 </html>

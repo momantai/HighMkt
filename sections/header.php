@@ -2,15 +2,16 @@
 <html>
 
 <head>
+    <?php include('lang.php'); ?>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>High Marketing Studio | Diseño, Desarrollo web y Social Media</title>
+    <title><?php echo $lang['title'] ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <script src="main.js"></script>
 
     <!-- Web Fonts  -->
-		<link href="/https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400" rel="stylesheet" type="text/css">
 
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
@@ -45,6 +46,7 @@
 		<!-- Head Libs -->
         <script src="vendor/modernizr/modernizr.min.js"></script>
         <link rel="stylesheet" href="/css/css.css"/>
+        <link rel="stylesheet" href="/iconservices/services.css">
 </head>
 
 <body>
@@ -73,11 +75,11 @@
                             <div class="header-column justify-content-end">
                                 <div class="header-row">
                                     <ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean social-icons-icon-light">
-                                        <li class="social-icons-facebook"><a href="/https://www.facebook.com/HighMKT" target="_blank"
+                                        <li class="social-icons-facebook"><a href="https://www.facebook.com/HighMKT" target="_blank"
                                                 title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="social-icons-twitter"><a href="/https://twitter.com/@highmktstudio" target="_blank"
+                                        <li class="social-icons-twitter"><a href="https://twitter.com/@highmktstudio" target="_blank"
                                                 title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="social-icons-linkedin"><a href="/https://www.linkedin.com/in/pdi-companies-b303149" target="_blank"
+                                        <li class="social-icons-linkedin"><a href="https://www.linkedin.com/in/pdi-companies-b303149" target="_blank"
                                                 title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
                                 </div>
@@ -96,8 +98,8 @@
                                                 <i class="far fa-clock text-7 p-relative"></i>
                                             </div>
                                             <div class="feature-box-info">
-                                                <p class="pb-0 font-weight-semibold line-height-5 text-2">MON - FRI:
-                                                    10:00 - 18:00<br>SAT - SUN: 10:00 - 14:00</p>
+                                                <p class="pb-0 font-weight-semibold line-height-5 text-2"><?php echo $lang['daystextshort'][0]; ?>:
+                                                    09:00 - 18:00<br><?php echo $lang['daystextshort'][1];?></p>
                                             </div>
                                         </div>
                                     </li>
@@ -122,8 +124,7 @@
                                                 <i class="fab fa-whatsapp text-7 p-relative" style="top: -2px;"></i>
                                             </div>
                                             <div class="feature-box-info">
-                                                <p class="pb-0 font-weight-semibold line-height-5 text-2">(123)
-                                                    456-7890<br>(123) 456-7891</p>
+                                                <p class="pb-0 font-weight-semibold line-height-5 text-2">MEX:+52 1 322 178 2993 <br>USA:1 (855) 221 1748 </p>
                                             </div>
                                         </div>
                                     </li>
@@ -136,41 +137,48 @@
                     <div class="header-container container">
                         <div class="header-row">
                             <div class="header-column">
-                                <div class="header-row justify-content-end">
+                                <div class="header-menu "> <!--justify-content-end-->
+                                    <button class="btn header-btn-collapse-nav" data-toggle="collapse"
+                                        data-target=".header-nav-main nav">
+                                        <i class="fas fa-bars"></i>
+                                    </button>
                                     <div class="header-nav p-0">
                                         <div class="header-nav header-nav-line header-nav-divisor header-nav-spaced justify-content-lg-center">
+                                            
                                             <div class="header-nav-main header-nav-main-square header-nav-main-effect-1 header-nav-main-sub-effect-1">
                                                 <nav class="collapse">
                                                     <ul class="nav nav-pills flex-column flex-lg-row" id="mainNav">
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item dropdown-toggle active" href="/">
-                                                                Inicio
+                                                            <a class="dropdown-item active" href="/">
+                                                            <?php echo $lang['menu-option-index'] ?>
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item dropdown-toggle" href="/#">
-                                                                Servicios
+                                                            <a class="dropdown-item dropdown-toggle" href="/Design-grapic.php">
+                                                            <?php echo $lang['menu-option-services'] ?>
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item dropdown-toggle" href="/#">
-                                                                Portafolio
+                                                            <a class="dropdown-item" href="/#">
+                                                            <?php echo $lang['menu-option-portfolio'] ?>
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item dropdown-toggle" href="/#">
-                                                                Contacto
+                                                            <a class="dropdown-item" href="/contact.php">
+                                                            <?php echo $lang['menu-option-contact'] ?>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </nav>
                                             </div>
-                                            <button class="btn header-btn-collapse-nav" data-toggle="collapse"
+                                            <!-- <button class="btn header-btn-collapse-nav" data-toggle="collapse"
                                                 data-target=".header-nav-main nav">
                                                 <i class="fas fa-bars"></i>
-                                            </button>
+                                            </button> -->
                                         </div>
-                                        <a class="linklenguage" href="/#">English</a>
+                                    </div>
+                                    <div class="linklenguage">
+                                        <a class="linklenguage" href="?lang=<?php echo $lang['option-lang-set'] ?>"><?php echo $lang['option-lang'] ?></a>
                                     </div>
                                 </div>
                             </div>
