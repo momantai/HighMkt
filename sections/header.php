@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
 
 <head>
     <?php include('lang.php'); ?>
@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $lang['title'] ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta property="og:type"               content="article" />
+    <!-- <meta property="og:title"              content="<?php echo $lang['title'] ?>" /> -->
+    <meta property="og:description"        content="How much does culture influence creative thinking?" />
+    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
 
     <script src="main.js"></script>
 
@@ -155,12 +160,12 @@
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item dropdown-toggle" href="/Design-grapic.php">
+                                                            <a class="dropdown-item dropdown-toggle" href="/services.php">
                                                             <?php echo $lang['menu-option-services'] ?>
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item" href="/#">
+                                                            <a class="dropdown-item" href="/portfolio.php">
                                                             <?php echo $lang['menu-option-portfolio'] ?>
                                                             </a>
                                                         </li>
