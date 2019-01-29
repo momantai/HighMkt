@@ -27,4 +27,12 @@ $lang['emailaddress'] = "Email Address";
 $lang['subject'] = "Subject";
 $lang['message'] = "Message";
 $lang['sendmessage'] = "Send Message";
+
+$lang['portfolio'] = "Portfolio";
+$lang['showall'] = "Show All";
+$lang['websites'] = "WebSites";
+
+
+$lang['option-lang-folder'] = "en";
+
 ?>

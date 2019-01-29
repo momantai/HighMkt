@@ -2,7 +2,28 @@
 
 <!-- Aquí inicia el HTML -->
 
-<div class="container py-2" style="margin-top: 35px;">
+
+<section class="page-header page-header-modern bg-color-light-scale-1 page-header-md ">
+					<div class="container-fluid">
+						<div class="row align-items-center">
+
+							<div class="col">
+								<div class="row">
+									<div class="col-md-12 align-self-center p-static order-2 text-center">
+										<div class="overflow-hidden pb-2">
+											<h1 class="text-dark font-weight-bold text-9 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="100"><?php echo $lang['portfolio'] ?></h2>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+
+<div class="container py-2" style="margin-top: 35px; margin-bottom: 200px;">
 
 					<div class="row">
 						<div class="col pb-5">
@@ -20,162 +41,24 @@
 							</div>
 
 							<ul class="nav nav-pills sort-source sort-source-style-3 justify-content-center" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-								<li class="nav-item active" data-option-value="*"><a class="nav-link text-1 text-uppercase active" href="#">Show All</a></li>
-								<li class="nav-item" data-option-value=".websites"><a class="nav-link text-1 text-uppercase" href="#">Websites</a></li>
-								<li class="nav-item" data-option-value=".logos"><a class="nav-link text-1 text-uppercase" href="#">Logos</a></li>
-								<li class="nav-item" data-option-value=".brands"><a class="nav-link text-1 text-uppercase" href="#">Brands</a></li>
-								<li class="nav-item" data-option-value=".medias"><a class="nav-link text-1 text-uppercase" href="#">Medias</a></li>
+								<li class="nav-item active" data-option-value="*"><a class="nav-link text-1 text-uppercase active" href="#"><?php echo $lang['showall'] ?></a></li>
+								<li class="nav-item" data-option-value=".websites"><a class="nav-link text-1 text-uppercase" href="#"><?php echo $lang['websites'] ?></a></li>
+								<!-- <li class="nav-item" data-option-value=".logos"><a class="nav-link text-1 text-uppercase" href="#">Logos</a></li> -->
 							</ul>
 
 							<div class="sort-destination-loader sort-destination-loader-showing mt-4 pt-2">
 								<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
 
 
-									<div class="col-sm-6 col-lg-3 isotope-item brands">
-										<div class="portfolio-item">
-											<a href="#" data-href="ajax/portfolio-ajax-project.html" data-ajax-on-page>
-												<span class="thumb-info thumb-info-lighten border-radius-0">
-													<span class="thumb-info-wrapper border-radius-0">
-														<img src="img/projects/project.jpg" class="img-fluid border-radius-0" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Presentation</span>
-															<span class="thumb-info-type">Brand</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-
-									<div class="col-sm-6 col-lg-3 isotope-item medias">
-										<div class="portfolio-item">
-											<a href="#" data-href="ajax/portfolio-ajax-project-1.html" data-ajax-on-page>
-												<span class="thumb-info thumb-info-lighten border-radius-0">
-													<span class="thumb-info-wrapper border-radius-0">
-														<span class="owl-carousel owl-theme dots-inside m-0" data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"><span><img src="img/projects/project-1.jpg" class="img-fluid border-radius-0" alt=""></span><span><img src="img/projects/project-1-2.jpg" class="img-fluid border-radius-0" alt=""></span></span>
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Porto Watch</span>
-															<span class="thumb-info-type">Media</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-
-									<div class="col-sm-6 col-lg-3 isotope-item logos">
-										<div class="portfolio-item">
-											<a href="#" data-href="ajax/portfolio-ajax-project-2.html" data-ajax-on-page>
-												<span class="thumb-info thumb-info-lighten border-radius-0">
-													<span class="thumb-info-wrapper border-radius-0">
-														<img src="img/projects/project-2.jpg" class="img-fluid border-radius-0" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Identity</span>
-															<span class="thumb-info-type">Logo</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-
 									<div class="col-sm-6 col-lg-3 isotope-item websites">
 										<div class="portfolio-item">
-											<a href="#" data-href="ajax/portfolio-ajax-project-3.html" data-ajax-on-page>
+											<a href="#" data-href="projects/<?php echo $lang['option-lang-folder']?>/diseno-web-high.php" data-ajax-on-page>
 												<span class="thumb-info thumb-info-lighten border-radius-0">
 													<span class="thumb-info-wrapper border-radius-0">
-														<img src="img/projects/project-27.jpg" class="img-fluid border-radius-0" alt="">
+                                                        <img src="projects/img/localhost_contact.php.png" class="img-fluid border-radius-0" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Porto Screens</span>
-															<span class="thumb-info-type">Website</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-
-									<div class="col-sm-6 col-lg-3 isotope-item logos">
-										<div class="portfolio-item">
-											<a href="#" data-href="ajax/portfolio-ajax-project-4.html" data-ajax-on-page>
-												<span class="thumb-info thumb-info-lighten border-radius-0">
-													<span class="thumb-info-wrapper border-radius-0">
-														<img src="img/projects/project-4.jpg" class="img-fluid border-radius-0" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Three Bottles</span>
-															<span class="thumb-info-type">Logo</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-
-									<div class="col-sm-6 col-lg-3 isotope-item brands">
-										<div class="portfolio-item">
-											<a href="#" data-href="ajax/portfolio-ajax-project-5.html" data-ajax-on-page>
-												<span class="thumb-info thumb-info-lighten border-radius-0">
-													<span class="thumb-info-wrapper border-radius-0">
-														<img src="img/projects/project-5.jpg" class="img-fluid border-radius-0" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Company T-Shirt</span>
-															<span class="thumb-info-type">Brand</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-
-									<div class="col-sm-6 col-lg-3 isotope-item websites">
-										<div class="portfolio-item">
-											<a href="#" data-href="ajax/portfolio-ajax-project-6.html" data-ajax-on-page>
-												<span class="thumb-info thumb-info-lighten border-radius-0">
-													<span class="thumb-info-wrapper border-radius-0">
-														<img src="img/projects/project-6.jpg" class="img-fluid border-radius-0" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Mobile Mockup</span>
-															<span class="thumb-info-type">Website</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-
-									<div class="col-sm-6 col-lg-3 isotope-item medias">
-										<div class="portfolio-item">
-											<a href="#" data-href="ajax/portfolio-ajax-project-7.html" data-ajax-on-page>
-												<span class="thumb-info thumb-info-lighten border-radius-0">
-													<span class="thumb-info-wrapper border-radius-0">
-														<img src="img/projects/project-7.jpg" class="img-fluid border-radius-0" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Porto Label</span>
-															<span class="thumb-info-type">Media</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
+															<span class="thumb-info-inner">Diseño web HighMarketing</span>
+															<span class="thumb-info-type">Web site</span>
 														</span>
 													</span>
 												</span>

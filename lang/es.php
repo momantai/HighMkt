@@ -30,6 +30,10 @@ $lang['subject'] = "Asunto";
 $lang['message'] = "Mensaje";
 $lang['sendmessage'] = "Enviar Mensaje";
 
+$lang['portfolio'] = "Portafolio";
+$lang['showall'] = "Mostras todos";
+$lang['websites'] = "Sitios web";
+
 //Services
 $lang['ourservicestext'] = "Nuestros <strong class='font-weight-extra-bold'>Servicios</strong>";
 $lang['name-design-graph'] = "Diseño Gráfico";
@@ -46,4 +50,5 @@ $lang['xt-ads'] = "Implementamos estrategias de marketing para impulsar tu negoc
 $lang['xt-social'] = "Actualizamos y unificamos tu marca en los diferentes canales de redes sociales haciendo uso de métricas y monitoreo vinculado a tu sector para incrementar el tráfico hacia tu negocio online y mantenerte en las listas mas reconocidas con un nivel de audiencia y alcance excelente.";
 $lang['xt-special'] = "Como miembro PDI tienes acceso a  publicaciones que difundimos e impulsamos constantemente para ti donde obtendrás descuentos y recomendaciones de lugares exclusivos dentro de nuestro directorio de negocios PDI VIP.";
 
+$lang['option-lang-folder'] = "es";
 ?>
