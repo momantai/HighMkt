@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $lang['title'] ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <script src="main.js"></script>
 
     <!-- Web Fonts  -->
@@ -28,17 +28,18 @@
 		<link rel="stylesheet" href="/css/theme-elements.css">
 		<link rel="stylesheet" href="/css/theme-blog.css">
 		<link rel="stylesheet" href="/css/theme-shop.css">
+    <link rel="stylesheet" href="/css/Service.css">
 
 		<!-- Current Page CSS -->
 		<link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css">
 		<link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css">
 		<link rel="stylesheet" href="/vendor/rs-plugin/css/navigation.css">
-		
+
 		<!-- Demo CSS -->
 
 
 		<!-- Skin CSS -->
-		<link rel="stylesheet" href="/css/skins/skin-corporate-8.css"> 
+		<link rel="stylesheet" href="/css/skins/skin-corporate-8.css">
 
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="/css/custom.css">
