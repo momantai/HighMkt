@@ -16,15 +16,10 @@
 
 
 							<div class="col-md-4 order-1 order-md-2 align-self-center">
-								<ul class="breadcrumb d-block text-md-right">
-									<li><a href="#">Home</a></li>
-									<li class="active">Pages</li>
-								</ul>
 							</div>
 						</div>
 					</div>
 				</section>
-
 				<div class="container py-4">
 
 					<div class="row py-3 justify-content-center">
@@ -85,10 +80,110 @@
 					</div>
 
 				</div>
-
+				<div class="container">
+					<div class="row justify-content-center pt-4 mt-5 mb-5">
+						<div class="col-lg-8 text-center">
+							<div class="overflow-hidden mb-3">
+								<h2 class="font-weight-bold mb-0 appear-animation" data-appear-animation="maskUp">Learn more about our process</h2>
+							</div>
+							<div class="overflow-hidden mb-3">
+								<p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante nulla hendrerit arcu, ac tincidunt mauris lacus sed leo. vamus suscipit molestie vestibulum.</p>
+							</div>
+						</div>
+					</div>
+					<div class="pricing-table pricing-table-no-gap mt-3 mb-5 pb-5">
+							<div class="col-md-6 col-lg-3">
+									<div class="plan">
+											<div class="plan-header">
+													<h3>Enterprise</h3>
+											</div>
+											<div class="plan-price">
+													<span class="price"><span class="price-unit">$</span>59</span>
+													<label class="price-label">PER MONTH</label>
+											</div>
+											<div class="plan-features">
+													<ul>
+															<li>10GB Disk Space</li>
+															<li>100GB Monthly Bandwith</li>
+															<li>20 Email Accounts</li>
+															<li>Unlimited Subdomains</li>
+													</ul>
+											</div>
+											<div class="plan-footer">
+													<a href="#" class="btn btn-dark btn-modern btn-outline rounded-0 py-2 px-4">Choose Plan</a>
+											</div>
+									</div>
+							</div>
+							<div class="col-md-6 col-lg-3">
+									<div class="plan">
+											<div class="plan-header">
+													<h3>Professional</h3>
+											</div>
+											<div class="plan-price">
+													<span class="price"><span class="price-unit">$</span>29</span>
+													<label class="price-label">PER MONTH</label>
+											</div>
+											<div class="plan-features">
+													<ul>
+															<li>5GB Disk Space</li>
+															<li>50GB Monthly Bandwith</li>
+															<li>10 Email Accounts</li>
+															<li>Unlimited Subdomains</li>
+													</ul>
+											</div>
+											<div class="plan-footer">
+													<a href="#" class="btn btn-dark btn-modern btn-outline rounded-0 py-2 px-4">Choose Plan</a>
+											</div>
+									</div>
+							</div>
+							<div class="col-md-6 col-lg-3">
+									<div class="plan plan-featured">
+											<div class="plan-header bg-primary">
+													<h3>Standard</h3>
+											</div>
+											<div class="plan-price">
+													<span class="price"><span class="price-unit">$</span>17</span>
+													<label class="price-label">PER MONTH</label>
+											</div>
+											<div class="plan-features">
+													<ul>
+															<li>3GB Disk Space</li>
+															<li>25GB Monthly Bandwith</li>
+															<li>5 Email Accounts</li>
+															<li>Unlimited Subdomains</li>
+													</ul>
+											</div>
+											<div class="plan-footer">
+													<a href="#" class="btn btn-primary btn-modern rounded-0 py-2 px-4">Choose Plan</a>
+											</div>
+									</div>
+							</div>
+							<div class="col-md-6 col-lg-3">
+									<div class="plan">
+											<div class="plan-header">
+													<h3>Basic</h3>
+											</div>
+											<div class="plan-price">
+													<span class="price"><span class="price-unit">$</span>9</span>
+													<label class="price-label">PER MONTH</label>
+											</div>
+											<div class="plan-features">
+													<ul>
+															<li>1GB Disk Space</li>
+															<li>10GB Monthly Bandwith</li>
+															<li>2 Email Accounts</li>
+															<li>Unlimited Subdomains</li>
+													</ul>
+											</div>
+											<div class="plan-footer">
+													<a href="#" class="btn btn-dark btn-modern btn-outline rounded-0 py-2 px-4">Choose Plan</a>
+											</div>
+									</div>
+							</div>
+					</div>
+					</div>
 				<section class="section bg-color-primary section-height-3 border-0 mt-4 mb-0">
 					<div class="container">
-
 						<div class="row">
 							<div class="col-md-10 py-3 mx-md-auto">
 								<div class="row pt-2 clearfix">
@@ -165,65 +260,33 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
-
 				</section>
 
-				<div class="container">
-					<div class="row justify-content-center pt-4 mt-5 mb-5">
-						<div class="col-lg-8 text-center">
-							<div class="overflow-hidden mb-3">
-								<h2 class="font-weight-bold mb-0 appear-animation" data-appear-animation="maskUp">Learn more about our process</h2>
-							</div>
-							<div class="overflow-hidden mb-3">
-								<p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante nulla hendrerit arcu, ac tincidunt mauris lacus sed leo. vamus suscipit molestie vestibulum.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row justify-content-center pb-5">
+        <div class="container-services">
+          <div class="title-service">
+            <h3>Portafolio</h3>
+          </div>
+            <div class="services">
 
-						<div class="col-md-7 col-lg-4 mb-5 mb-lg-0">
-							<div class="circular-bar mb-lg-5 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="600">
-								<div class="circular-bar-chart" data-percent="25" data-plugin-options="{'barColor': '#0088cc'}">
-									<strong class="mt-2 text-color-primary">25%</strong>
-								</div>
-							</div>
-							<div class="col text-center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="900">
-								<h4 class="font-weight-bold">Meeting</h4>
-								<p class="px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
-							</div>
-						</div>
+            <div class="service">
 
-						<div class="col-md-7 col-lg-4 mb-5 mb-lg-0">
-							<div class="circular-bar mb-lg-5 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="400">
-								<div class="circular-bar-chart" data-percent="50" data-plugin-options="{'barColor': '#0088cc'}">
-									<strong class="mt-2 text-color-primary">50%</strong>
-								</div>
-							</div>
-							<div class="col text-center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="900">
-								<h4 class="font-weight-bold">Execute</h4>
-								<p class="px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
-							</div>
-						</div>
+            </div>
+            <div class="service">
 
-						<div class="col-md-7 col-lg-4">
-							<div class="circular-bar mb-lg-5 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
-								<div class="circular-bar-chart" data-percent="100" data-plugin-options="{'barColor': '#0088cc'}">
-									<strong class="mt-2 text-color-primary">100%</strong>
-								</div>
-							</div>
-							<div class="col text-center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="900">
-								<h4 class="font-weight-bold">Delivery</h4>
-								<p class="px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
-							</div>
-						</div>
+            </div>
+            <div class="service">
 
-					</div>
+            </div>
 
-					</div>
+            <div class="service">
+
+            </div>
+          </div>
+
+        </div>
+
 				</div>
-
 			</div>
 		</div>
 
