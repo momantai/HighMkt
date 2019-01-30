@@ -1,3 +1,4 @@
+<?php include('../../lang.php'); ?>
 <div class="ajax-container">
 	<div class="row align-items-center py-4">
 
@@ -58,10 +59,10 @@
 
 			<h2 class="text-color-dark font-weight-normal text-4 mb-0 mt-4">Project <strong class="font-weight-extra-bold">Details</strong></h2>
 			<ul class="list list-icons list-primary list-borders text-2">
-				<li><i class="fas fa-caret-right left-10"></i> <strong class="text-color-primary">Client:</strong> Okler Themes</li>
-				<li><i class="fas fa-caret-right left-10"></i> <strong class="text-color-primary">Date:</strong> January 2018</li>
-				<li><i class="fas fa-caret-right left-10"></i> <strong class="text-color-primary">Skills:</strong> <a href="#" class="badge badge-dark badge-sm badge-pill px-2 py-1 ml-1">DESIGN</a><a href="#" class="badge badge-dark badge-sm badge-pill px-2 py-1 ml-1">BRAND</a><a href="#" class="badge badge-dark badge-sm badge-pill px-2 py-1 ml-1">WEBSITES</a></li>
-				<li><i class="fas fa-caret-right left-10"></i> <strong class="text-color-primary">Project URL:</strong> <a href="#" target="_blank" class="text-dark">http://www.okler.net</a></li>
+			<li><i class="fas fa-caret-right left-10"></i> <strong class="text-color-primary"><?php echo $lang['client'] ?>:</strong> PDI Companies</li>
+				<li><i class="fas fa-caret-right left-10"></i> <strong class="text-color-primary"><?php echo $lang['date'] ?>:</strong> January 2018</li>
+				<li><i class="fas fa-caret-right left-10"></i> <strong class="text-color-primary">Skills:</strong> <a href="#" class="badge badge-dark badge-sm badge-pill px-2 py-1 ml-1">DESIGN</a><a href="#" class="badge badge-dark badge-sm badge-pill px-2 py-1 ml-1">WEBSITES</a></li>
+				<li><i class="fas fa-caret-right left-10"></i> <strong class="text-color-primary"><?php echo $lang['direction'] ?> URL:</strong> <a href="http://www.highmktstudio.com/" target="_blank" class="text-dark">http://www.highmktstudio.com/</a></li>
 			</ul>
 		</div>
 	</div>

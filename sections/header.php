@@ -51,7 +51,7 @@
 
 		<!-- Head Libs -->
         <script src="vendor/modernizr/modernizr.min.js"></script>
-        <link rel="stylesheet" href="/css/css.css"/>
+        <link rel="stylesheet" href="/css/css.css?v=1.1"/>
         <link rel="stylesheet" href="/iconservices/services.css">
 </head>
 

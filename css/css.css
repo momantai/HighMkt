@@ -52,3 +52,25 @@ a:hover.dropdown-item::before {
     width: 100%;
     justify-content: space-between;
 }
+
+.content-video {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: -99;
+}
+
+.videoopening {
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    
+}
+
+video {
+    height: 100%;
+    width: 100%;
+} 

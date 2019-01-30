@@ -4,7 +4,11 @@
 
 
 <div role="main" class="main">
-            <div class="slider-container rev_slider_wrapper" style="height: 530px;"></div>
+            <div class="content-video">
+                <div class="videoopening">
+                    <video src="media/INTROSERVICESHIGHMARKETING<?php echo $lang['option-lang-folder'] ?>.mp4" loop autoplay preload muted></video>
+                </div>
+            </div>
             <div class="home-intro home-intro-quaternary" id="home-intro">
                 <div class="container">
                     <div class="row text-center">

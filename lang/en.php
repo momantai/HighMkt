@@ -32,6 +32,10 @@ $lang['portfolio'] = "Portfolio";
 $lang['showall'] = "Show All";
 $lang['websites'] = "WebSites";
 
+$lang['client'] = "Client";
+$lang['date'] = "Date";
+$lang['direction'] = "Project";
+
 
 $lang['option-lang-folder'] = "en";
 

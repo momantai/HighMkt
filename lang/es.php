@@ -34,6 +34,10 @@ $lang['portfolio'] = "Portafolio";
 $lang['showall'] = "Mostras todos";
 $lang['websites'] = "Sitios web";
 
+$lang['client'] = "Cliente";
+$lang['date'] = "Fecha";
+$lang['direction'] = "Dirección";
+
 //Services
 $lang['ourservicestext'] = "Nuestros <strong class='font-weight-extra-bold'>Servicios</strong>";
 $lang['name-design-graph'] = "Diseño Gráfico";
