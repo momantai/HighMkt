@@ -14,6 +14,10 @@ $lang['ourprices'] = "Nuestros <strong class='font-weight-extra-bold'>Precios</s
 $lang['daystextshort'] = ["LUN - VIER", "SAB - DOM: Cerrado"];
 $lang['daystext'] = ["Lunes - Viernes", "Sabado - Domingo: Cerrado"];
 
+$lang['slogan'] = "No limitamos nuestro";
+$lang['postslogan'] = "Estamos constantemente renovando la identidad de las empresas y sus elementos visuales que les ayudarán a alcanzar una imagen exitosa.";
+$lang['thinking'] = "pensamiento";
+
 //Cabeceras
 
 $lang['contactus'] = "Contactanos</strong>";
@@ -38,6 +42,9 @@ $lang['client'] = "Cliente";
 $lang['date'] = "Fecha";
 $lang['direction'] = "Dirección";
 
+$lang['successsend'] = "<strong>¡Correcto!</strong> Tu mensaje ha sido enviado.";
+$lang['errorsend'] = "<strong>¡Error!</strong> Tu mensaje no pudo ser enviado.";
+
 //Services
 $lang['ourservicestext'] = "Nuestros <strong class='font-weight-extra-bold'>Servicios</strong>";
 $lang['name-design-graph'] = "Diseño Gráfico";
@@ -55,4 +62,10 @@ $lang['xt-social'] = "Actualizamos y unificamos tu marca en los diferentes canal
 $lang['xt-special'] = "Como miembro PDI tienes acceso a  publicaciones que difundimos e impulsamos constantemente para ti donde obtendrás descuentos y recomendaciones de lugares exclusivos dentro de nuestro directorio de negocios PDI VIP.";
 
 $lang['option-lang-folder'] = "es";
+
+//Call to action
+$lang['cta-become'] = 'CONVIÉRTASE EN <strong class="font-weight-extra-bold">MIEMBRO</strong>!';
+$lang['cta-member'] = 'Como miembro disfrutará de una variedad de <strong class="font-weight-extra-bold">beneficios</strong> dependiendo de su Plan de Membresía. Puede elegir entre miembros individuales, familiares o de negocios y aprovechar todas las <strong class="font-weight-extra-bold">recompensas</strong>.';
+$lang['cta-started'] = "Empieza Ahora";
+
 ?>

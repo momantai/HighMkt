@@ -9,7 +9,7 @@
 						<div class="row py-4">
 							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
 								<a href="" class="logo pr-0 pr-lg-3">
-									<img alt="Porto Website Template" src="img/logo-high.png" class="opacity-5" height="33">
+									<img alt="Porto Website Template" src="img/high-logo.png" class="opacity-5" height="33">
 								</a>
 							</div>
 							<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
@@ -62,9 +62,5 @@
 
 		<!-- Examples -->
 		<script src="js/examples/examples.portfolio.js"></script>
-
-		<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-		<script>
 </body>
-
 </html>

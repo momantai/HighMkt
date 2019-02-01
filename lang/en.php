@@ -13,6 +13,10 @@ $lang['ourprices'] = "Our <strong class='font-weight-extra-bold'>Prices</strong>
 $lang['daystextshort'] = ["MON - FRI", "SAT - SUN: Closed"];
 $lang['daystext'] = ["Monday - Friday", "Saturday - Sunday: Closed"];
 
+$lang['slogan'] = "We do not limit our";
+$lang['postslogan'] = "We are constantly refreshing the identity of companies and their visual elements that will help them to reach a successful image.";
+$lang['thinking'] = "thinking";
+
 //Cabeceras
 
 $lang['contactus'] = "Contact</strong> Us";
@@ -36,7 +40,33 @@ $lang['client'] = "Client";
 $lang['date'] = "Date";
 $lang['direction'] = "Project";
 
+$lang['successsend'] = "<strong>Success!</strong> Your message has been sent to us.";
+$lang['errorsend'] = "<strong>Error!</strong> There was an error sending your message.";
+
+//Services
+$lang['ourservicestext'] = "Our <strong class='font-weight-extra-bold'>Services</strong>";
+$lang['name-design-graph'] = "Graphic Design";
+$lang['name-web-design'] = "Web Design & Development";
+$lang['name-photograph'] = "Photography / Video Production";
+$lang['name-ads'] = "Advertising";
+$lang['name-social'] = "Social Media";
+$lang['name-special'] = "Specials";
+
+$lang['xt-design-graph'] = "Creación, integración y re-estructuración de tu imagen corporativa, otorgando personalidad y unificación a tu marca sobre diferentes formatos y plataformas distintivas de tu empresa, todos van a querer concerte.";
+$lang['xt-web-design'] = "Desarrollamos tu sitio web, exclusivamente orientado a tus usuarios mediante un diseño intuitivo de fácil acceso en función de una mejor experiencia de venta y navegación por tus contenidos y productos o servicios para que a tu pagina no le fata nada.";
+$lang['xt-photograph'] = "Visualizamos, transformamos y capturamos tus ideas en imágenes o material audiovisual con gran calidad y alto impacto que proyecte tus objetivos particulares hacia los intereses de tu audiencia.";
+$lang['xt-ads'] = "Implementamos estrategias de marketing para impulsar tu negocio, marca o producto en diferentes comunidades online ya seleccionadas mediante análisis y comparación de resultados basados únicamente en tu campaña y distintivo de marca.";
+$lang['xt-social'] = "Actualizamos y unificamos tu marca en los diferentes canales de redes sociales haciendo uso de métricas y monitoreo vinculado a tu sector para incrementar el tráfico hacia tu negocio online y mantenerte en las listas mas reconocidas con un nivel de audiencia y alcance excelente.";
+$lang['xt-special'] = "Como miembro PDI tienes acceso a  publicaciones que difundimos e impulsamos constantemente para ti donde obtendrás descuentos y recomendaciones de lugares exclusivos dentro de nuestro directorio de negocios PDI VIP.";
+
 
 $lang['option-lang-folder'] = "en";
+
+
+//Call to action 
+$lang['cta-become'] = 'BECOME A <strong class="font-weight-extra-bold">MEMBER</strong>!';
+$lang['cta-member'] = 'As a member you will enjoy a variety of <strong class="font-weight-extra-bold">benefits</strong> depending on your Membership Plan. You can chose from individual, family or business membership and take advantage of all the <strong class="font-weight-extra-bold">rewards.</strong>.';
+$lang['cta-started'] = "Get Started Now";
+
 
 ?>

@@ -20,13 +20,13 @@
 								<p class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400"><?php echo $lang['feel'] ?></p>
 							</div>
 
-							<form id="contactForm" class="contact-form appear-animation" action="php/contact-form.php" method="POST" data-appear-animation="fadeIn" data-appear-animation-delay="600">
+							<form id="contactForm" class="contact-form appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="600">
 								<div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
-									<strong>Success!</strong> Your message has been sent to us.
+									<?php echo $lang['successsend'] ?>
 								</div>
 
 								<div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
-									<strong>Error!</strong> There was an error sending your message.
+									<?php echo $lang['errorsend'] ?>
 									<span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
 								</div>
 								
@@ -50,6 +50,11 @@
 									<div class="form-group col">
 										<label class="required font-weight-bold text-dark"><?php echo $lang['message'] ?></label>
 										<textarea maxlength="5000" data-msg-required="Please enter your message." rows="8" class="form-control" name="message" id="message" required></textarea>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+									<div class="g-recaptcha" data-sitekey="6Le5R44UAAAAAPJM55FCcASwbgCSgef0ehZyV4dS"></div>
 									</div>
 								</div>
 								<div class="form-row">
@@ -90,6 +95,10 @@
 				</div>
 
 			</div>
-
 </div>
+
+<script src="formul.js"></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js?render=6LeLR44UAAAAAEdwWK0U6RbYJ12I0hwKEGaXYfzc'></script> -->
+
+<?php include "call-to-action.php" ?>
 <?php include('sections/footer.php'); ?>

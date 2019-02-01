@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
+<?php include('lang.php'); ?>
+<html lang="<?php echo $lang['option-lang-folder'] ?>">
 
 <head>
-    <?php include('lang.php'); ?>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $lang['title'] ?></title>
@@ -13,7 +13,9 @@
     <meta property="og:description"        content="How much does culture influence creative thinking?" />
     <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
 
-    <script src="main.js"></script>
+    <link rel="shortcut icon" href="img/high-logo.ico" type="image/x-icon">
+
+    <!-- <script src="main.js"></script> -->
 
     <!-- Web Fonts  -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400" rel="stylesheet" type="text/css">
@@ -21,8 +23,8 @@
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/vendor/fontawesome-free/css/all.min.css">
+		<!-- <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.min.css">  -->
 		<link rel="stylesheet" href="/vendor/animate/animate.min.css">
-		<link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.min.css">
 		<link rel="stylesheet" href="/vendor/owl.carousel/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="/vendor/owl.carousel/assets/owl.theme.default.min.css">
 		<link rel="stylesheet" href="/vendor/magnific-popup/magnific-popup.min.css">
@@ -31,13 +33,13 @@
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="/css/theme.css">
 		<link rel="stylesheet" href="/css/theme-elements.css">
-		<link rel="stylesheet" href="/css/theme-blog.css">
-		<link rel="stylesheet" href="/css/theme-shop.css">
-    <link rel="stylesheet" href="/css/Service.css">
+		<!-- <link rel="stylesheet" href="/css/theme-blog.css"> -->
+		<!-- <link rel="stylesheet" href="/css/theme-shop.css"> -->
+        <link rel="stylesheet" href="/css/Service.css">
 
 		<!-- Current Page CSS -->
-		<link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css">
-		<link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css">
+		<!-- <link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css">
+		<link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css"> -->
 		<link rel="stylesheet" href="/vendor/rs-plugin/css/navigation.css">
 
 		<!-- Demo CSS -->
@@ -46,13 +48,12 @@
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="/css/skins/skin-corporate-8.css">
 
-		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="/css/custom.css">
-
 		<!-- Head Libs -->
         <script src="vendor/modernizr/modernizr.min.js"></script>
         <link rel="stylesheet" href="/css/css.css?v=1.1"/>
         <link rel="stylesheet" href="/iconservices/services.css">
+
+        <script src='https://www.google.com/recaptcha/api.js?hl=<?php echo $lang['option-lang-folder'] ?>'></script>
 </head>
 
 <body>
@@ -81,11 +82,11 @@
                             <div class="header-column justify-content-end">
                                 <div class="header-row">
                                     <ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean social-icons-icon-light">
-                                        <li class="social-icons-facebook"><a href="https://www.facebook.com/HighMKT" target="_blank"
+                                        <li class="social-icons-facebook"><a href="https://www.facebook.com/HighMKT" rel="noopener" target="_blank"
                                                 title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="social-icons-twitter"><a href="https://twitter.com/@highmktstudio" target="_blank"
+                                        <li class="social-icons-twitter"><a href="https://twitter.com/@highmktstudio" rel="noopener" target="_blank"
                                                 title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="social-icons-linkedin"><a href="https://www.linkedin.com/in/pdi-companies-b303149" target="_blank"
+                                        <li class="social-icons-linkedin"><a href="https://www.linkedin.com/in/pdi-companies-b303149" rel="noopener" target="_blank"
                                                 title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
                                 </div>

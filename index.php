@@ -14,8 +14,8 @@
                     <div class="row text-center">
                         <div class="col">
                             <p class="mb-0">
-                                The fastest way to grow your business with the leader in <span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-light text-color-light font-weight-semibold text-5">Technology</span>
-                                <span>Check out our options and features included.</span>
+                                <?php echo $lang['slogan'] ?> <span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-light text-color-light font-weight-semibold text-5"><?php echo $lang['thinking'] ?></span>
+                                <span><?php echo $lang['postslogan'] ?></span>
                             </p>
                         </div>
                     </div>
@@ -24,7 +24,7 @@
             
             <div class="container">
                 <div class="row align-items-center mb-5">
-                    <div class="col-lg-7 pr-5 " data-="fadeInRightShorter">
+                    <div class="col-lg-7 pr-5 " data-appear-animation="fadeInRightShorter">
                         <h2 class="font-weight-normal text-6 mb-4"><?php echo $lang['whowearetext'] ?></h2>
                         <p class="lead pr-2 mb-4"><?php echo $lang['whoweare'][0] ?></p>
                         <p class="mb-4"><?php echo $lang['whoweare'][1] ?></p>
@@ -33,11 +33,11 @@
                     <div class="col-lg-5">
                         <div class="row mt-5 mt-lg-0">
                             <div class="col-md-8 col-lg-6 text-center text-lg-left mx-auto">
-                                <img class="img-fluid m-3 my-0 mt-lg-5 pt-lg-5 " src="img/office/our-office-4.jpg" alt="Office" data-="" data--delay="200">
+                                <img class="img-fluid m-3 my-0 mt-lg-5 pt-lg-5 " src="img/office/our-office-4.jpg" alt="Office" data-appear-animation="expandIn" data--delay="200">
                             </div>
                             <div class="col-md-8 col-lg-6 pl-lg-0 text-center text-lg-left mx-auto">
-                                <img class="img-fluid m-3 my-0 " src="img/office/our-office-5.jpg" alt="Office" data-="" data--delay="400">
-                                <img class="img-fluid m-3 my-0 " src="img/office/our-office-7.jpg" alt="Office" data-="" data--delay="200">
+                                <img class="img-fluid m-3 my-0 " src="img/office/our-office-5.jpg" alt="Office" data-appear-animation="expandIn" data--delay="400">
+                                <img class="img-fluid m-3 my-0 " src="img/office/our-office-7.jpg" alt="Office" data-appear-animation="expandIn" data--delay="200">
                             </div>
                         </div>
                     </div>
@@ -46,16 +46,16 @@
 
             <!-- Nuestros servicios -->
 
-            <section class="section bg-color-grey-scale-1 section-height-3 section-no-border " data-="fadeIn">
+            <section class="section bg-color-grey-scale-1 section-height-3 section-no-border " data-appear-animation="fadeIn">
                 <div class="container">
                     <div class="row">
-                        <div class="col text-center " data-="fadeInUpShorter" data--delay="200">
+                        <div class="col text-center " data-appear-animation="fadeInUpShorter" data--delay="200">
                             <h2 class="font-weight-normal text-6 mb-5"><?php echo $lang['ourservicestext'] ?></h2>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-lg-4 mb-4 " data-="fadeInLeftShorter" data--delay="400">
+                        <div class="col-lg-4 mb-4 " data-appear-animation="fadeInLeftShorter" data--delay="400">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
                                     <i class="icon-service icon-dgraph"></i>
@@ -66,7 +66,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 mb-4 " data-="fadeIn" data--delay="200">
+                        <div class="col-lg-4 mb-4 " data-appear-animation="fadeIn" data--delay="200">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
                                 <i class="icon-service icon-dweb"></i>
@@ -77,7 +77,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 mb-4 " data-="fadeInRightShorter" data--delay="400">
+                        <div class="col-lg-4 mb-4 " data-appear-animation="fadeInRightShorter" data--delay="400">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
                                 <i class="icon-service icon-photo"></i>
@@ -91,7 +91,7 @@
                     </div>
 
                     <div class="row mt-lg-3">
-                        <div class="col-lg-4 mb-4 mb-lg-0 " data-="fadeInLeftShorter" data--delay="400">
+                        <div class="col-lg-4 mb-4 mb-lg-0 " data-appear-animation="fadeInLeftShorter" data--delay="400">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
                                 <i class="icon-service icon-ads"></i>
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 mb-4 mb-lg-0 " data-="fadeIn" data--delay="200">
+                        <div class="col-lg-4 mb-4 mb-lg-0 " data-appear-animation="fadeIn" data--delay="200">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
                                 <i class="icon-service icon-social"></i>
@@ -113,7 +113,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 " data-="fadeInRightShorter" data--delay="400">
+                        <div class="col-lg-4 " data-appear-animation="fadeInRightShorter" data--delay="400">
                             <div class="feature-box feature-box-secondary feature-box-style-4">
                                 <div class="feature-box-icon">
                                 <i class="icon-service icon-vip"></i>
