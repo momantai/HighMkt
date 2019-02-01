@@ -161,7 +161,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a onclick="hola('<?php echo $lang['option-lang-set'] ?>','<?php echo $lang['menu-option-services'] ?>')" class="dropdown-item dropdown-toggle" href="/services.php">
+                                                            <a  class="dropdown-item dropdown-toggle" href="/services.php">
                                                             <?php echo $lang['menu-option-services'] ?>
                                                             </a>
                                                         </li>

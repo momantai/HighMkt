@@ -1,3 +1,0 @@
-function hola(texto,servicio){
-
-}

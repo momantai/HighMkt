@@ -59,8 +59,9 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
-		<script src="js/services.js"></script>
 		<!-- Examples -->
 		<script src="js/examples/examples.portfolio.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+		<script>
 </body>
 </html>

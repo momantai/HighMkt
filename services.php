@@ -1,17 +1,19 @@
 <?php
     include('sections/header.php');
+    include('service.php');
+    $texto=service();
 ?>
-
 		<div class="body">
 			<div role="main" class="main">
 				<section class="page-header page-header-modern bg-color-light-scale-1 page-header-md">
 					<div class="container">
 						<div class="row">
 
-
 							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-								<h1 class="text-dark">Our <strong>Services</strong></h1>
-<span class="sub-title text-dark">We Are Here To Help You</span>
+								<h1 class="text-dark">
+                  <?php echo $texto['name'];?>
+                </h1>
+<span class="sub-title text-dark"><?php echo $texto['description'];?></span>
 							</div>
 
 
@@ -35,42 +37,6 @@
 								<div class="row">
 									<div class="col">
 										<h4 class="mb-0"><a href="#" class="text-2 text-uppercase font-weight-bold pt-2 d-block text-dark text-decoration-none">Mobile Apps</a></h4>
-										<p class="mb-2 lead text-4">Lorem ipsum dolor sit amet, coctetur adipiscing elit.</p>
-										<p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non metus pulvinar.</p>
-									</div>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-8 col-md-4 mb-4 mb-md-0 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="250">
-							<article>
-								<div class="row">
-									<div class="col">
-										<a href="#" class="text-decoration-none">
-											<img src="img/generic/generic-corporate-3-2-full.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
-										</a>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col">
-										<h4 class="mb-0"><a href="#" class="text-2 text-uppercase font-weight-bold pt-2 d-block text-dark text-decoration-none">Creative Websites</a></h4>
-										<p class="mb-2 lead text-4">Lorem ipsum dolor sit amet, coctetur adipiscing elit.</p>
-										<p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non metus pulvinar.</p>
-									</div>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-8 col-md-4 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="500">
-							<article>
-								<div class="row">
-									<div class="col">
-										<a href="#" class="text-decoration-none">
-											<img src="img/generic/generic-corporate-3-3-full.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
-										</a>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col">
-										<h4 class="mb-0"><a href="#" class="text-2 text-uppercase font-weight-bold pt-2 d-block text-dark text-decoration-none">SEO Optimization</a></h4>
 										<p class="mb-2 lead text-4">Lorem ipsum dolor sit amet, coctetur adipiscing elit.</p>
 										<p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non metus pulvinar.</p>
 									</div>
