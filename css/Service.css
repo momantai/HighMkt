@@ -57,6 +57,7 @@ padding: 7px;
   border-radius: 10px;
 }
 .container-services{
+	margin-top: 30px !important;
 clear: both;
 width: 80vw;
 margin: 0 auto;

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $lang['title'] ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <meta property="og:type"               content="article" />
     <!-- <meta property="og:title"              content="<?php echo $lang['title'] ?>" /> -->
     <meta property="og:description"        content="How much does culture influence creative thinking?" />
@@ -151,7 +151,7 @@
                                     </button>
                                     <div class="header-nav p-0">
                                         <div class="header-nav header-nav-line header-nav-divisor header-nav-spaced justify-content-lg-center">
-                                            
+
                                             <div class="header-nav-main header-nav-main-square header-nav-main-effect-1 header-nav-main-sub-effect-1">
                                                 <nav class="collapse">
                                                     <ul class="nav nav-pills flex-column flex-lg-row" id="mainNav">
@@ -161,7 +161,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item dropdown-toggle" href="/services.php">
+                                                            <a onclick="hola('<?php echo $lang['option-lang-set'] ?>','<?php echo $lang['menu-option-services'] ?>')" class="dropdown-item dropdown-toggle" href="/services.php">
                                                             <?php echo $lang['menu-option-services'] ?>
                                                             </a>
                                                         </li>
