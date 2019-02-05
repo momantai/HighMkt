@@ -58,7 +58,7 @@
         <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 164, 'stickySetTop': '-175px', 'stickyChangeLogo': false}">
             <div class="header-body border-shadow">
                 <div class="header-top header-top-default border-bottom-0 color-bar diagonal-primary-bar">
-                <div class="diagonal-bar">asdasdsa <?php echo $_SERVER["PHP_SELF"]?><div class="d-bar">Barra</div></div>
+                <div class="diagonal-bar"><div class="d-bar">HighMKT</div></div>
                     <div class="container">
                         <div class="header-row py-2">
                             <div class="header-column justify-content-start">
