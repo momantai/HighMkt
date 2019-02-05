@@ -1,7 +1,9 @@
 <?php
     include('sections/header.php');
-    include('service.php');
-    $texto=service();
+    if(isset($_GET['option'])){
+      $_SESSION['option']=$_GET['option'];
+    }
+    $text=service($_SESSION['option'],$_SESSION['lang']);
 ?>
 		<div class="body">
 			<div role="main" class="main">
@@ -11,9 +13,9 @@
 
 							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
 								<h1 class="text-dark">
-                  <?php echo $texto['name'];?>
+                  <?php echo $text['name'];?>
                 </h1>
-<span class="sub-title text-dark"><?php echo $texto['description'];?></span>
+<span class="sub-title text-dark"><?php echo $text['description'];?></span>
 							</div>
 
 
@@ -25,6 +27,7 @@
 				<div class="container py-4">
 
 					<div class="row py-3 justify-content-center">
+            <?php for ($i=0; $i<sizeof($text['services']); $i++): ?>
 						<div class="col-sm-8 col-md-4 mb-4 mb-md-0 appear-animation" data-appear-animation="fadeIn">
 							<article>
 								<div class="row">
@@ -36,13 +39,14 @@
 								</div>
 								<div class="row">
 									<div class="col">
-										<h4 class="mb-0"><a href="#" class="text-2 text-uppercase font-weight-bold pt-2 d-block text-dark text-decoration-none">Mobile Apps</a></h4>
-										<p class="mb-2 lead text-4">Lorem ipsum dolor sit amet, coctetur adipiscing elit.</p>
-										<p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non metus pulvinar.</p>
+										<h4 class="mb-0"><a href="#" class="text-2 text-uppercase font-weight-bold pt-2 d-block text-dark text-decoration-none"><?php echo $text['services'][$i]['name']; ?></a></h4>
+										<p class="mb-2 lead text-4"><?php echo $text['services'][$i]['subtitle'];?></p>
+										<p class="text-2"><?php echo $text['services'][$i]['description']; ?></p>
 									</div>
 								</div>
 							</article>
 						</div>
+          <?php endfor; ?>
 					</div>
 
 				</div>
@@ -50,10 +54,10 @@
 					<div class="row justify-content-center pt-4 mt-5 mb-5">
 						<div class="col-lg-8 text-center">
 							<div class="overflow-hidden mb-3">
-								<h2 class="font-weight-bold mb-0 appear-animation" data-appear-animation="maskUp">Learn more about our process</h2>
+								<h2 class="font-weight-bold mb-0 appear-animation" data-appear-animation="maskUp"><?php echo $text['title_packages'];?></h2>
 							</div>
 							<div class="overflow-hidden mb-3">
-								<p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante nulla hendrerit arcu, ac tincidunt mauris lacus sed leo. vamus suscipit molestie vestibulum.</p>
+								<p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200"><?php echo $text['subtitle_packages']?>.</p>
 							</div>
 						</div>
 					</div>
@@ -61,18 +65,18 @@
 							<div class="col-md-6 col-lg-3">
 									<div class="plan">
 											<div class="plan-header">
-													<h3>Enterprise</h3>
+													<h3><?php echo $text['packages'][0]['title_packages'] ?></h3>
 											</div>
 											<div class="plan-price">
-													<span class="price"><span class="price-unit">$</span>59</span>
-													<label class="price-label">PER MONTH</label>
+													<span class="price"><span class="price-unit">$</span><?php echo $text['packages'][0]['price'] ?></span>
+													<label class="price-label"><?php echo $text['packages'][0]['subtitle_packages'] ?></label>
 											</div>
 											<div class="plan-features">
 													<ul>
-															<li>10GB Disk Space</li>
-															<li>100GB Monthly Bandwith</li>
-															<li>20 Email Accounts</li>
-															<li>Unlimited Subdomains</li>
+															<li><?php echo $text['packages'][0]['characteristic-1'] ?></li>
+															<li><?php echo $text['packages'][0]['characteristic-2'] ?></li>
+															<li><?php echo $text['packages'][0]['characteristic-3'] ?></li>
+															<li><?php echo $text['packages'][0]['characteristic-4'] ?></li>
 													</ul>
 											</div>
 											<div class="plan-footer">
@@ -83,18 +87,18 @@
 							<div class="col-md-6 col-lg-3">
 									<div class="plan">
 											<div class="plan-header">
-													<h3>Professional</h3>
+													<h3><?php echo $text['packages'][1]['title_packages'] ?></h3>
 											</div>
 											<div class="plan-price">
-													<span class="price"><span class="price-unit">$</span>29</span>
-													<label class="price-label">PER MONTH</label>
+													<span class="price"><span class="price-unit">$</span><?php echo $text['packages'][1]['price'] ?></span>
+													<label class="price-label"><?php echo $text['packages'][1]['subtitle_packages']?></label>
 											</div>
 											<div class="plan-features">
 													<ul>
-															<li>5GB Disk Space</li>
-															<li>50GB Monthly Bandwith</li>
-															<li>10 Email Accounts</li>
-															<li>Unlimited Subdomains</li>
+															<li><?php echo $text['packages'][1]['characteristic-1'] ?></li>
+															<li><?php echo $text['packages'][1]['characteristic-2'] ?></li>
+															<li><?php echo $text['packages'][1]['characteristic-3'] ?></li>
+															<li><?php echo $text['packages'][1]['characteristic-4'] ?></li>
 													</ul>
 											</div>
 											<div class="plan-footer">
@@ -105,18 +109,18 @@
 							<div class="col-md-6 col-lg-3">
 									<div class="plan plan-featured">
 											<div class="plan-header bg-primary">
-													<h3>Standard</h3>
+													<h3><?php echo $text['packages'][2]['title_packages']?></h3>
 											</div>
 											<div class="plan-price">
-													<span class="price"><span class="price-unit">$</span>17</span>
-													<label class="price-label">PER MONTH</label>
+													<span class="price"><span class="price-unit">$</span><?php echo $text['packages'][2]['price']?></span>
+													<label class="price-label"><?php echo $text['packages'][2]['subtitle_packages']?></label>
 											</div>
 											<div class="plan-features">
 													<ul>
-															<li>3GB Disk Space</li>
-															<li>25GB Monthly Bandwith</li>
-															<li>5 Email Accounts</li>
-															<li>Unlimited Subdomains</li>
+															<li><?php echo $text['packages'][2]['characteristic-1']?></li>
+															<li><?php echo $text['packages'][2]['characteristic-2']?></li>
+															<li><?php echo $text['packages'][2]['characteristic-3']?></li>
+															<li><?php echo $text['packages'][2]['characteristic-4']?></li>
 													</ul>
 											</div>
 											<div class="plan-footer">
@@ -124,21 +128,21 @@
 											</div>
 									</div>
 							</div>
-							<div class="col-md-6 col-lg-3">
+              <div class="col-md-6 col-lg-3">
 									<div class="plan">
 											<div class="plan-header">
-													<h3>Basic</h3>
+													<h3><?php echo $text['packages'][3]['title_packages']?></h3>
 											</div>
 											<div class="plan-price">
-													<span class="price"><span class="price-unit">$</span>9</span>
-													<label class="price-label">PER MONTH</label>
+													<span class="price"><span class="price-unit">$</span><?php echo $text['packages'][3]['price']?></span>
+													<label class="price-label"><?php echo $text['packages'][3]['subtitle_packages']?></label>
 											</div>
 											<div class="plan-features">
 													<ul>
-															<li>1GB Disk Space</li>
-															<li>10GB Monthly Bandwith</li>
-															<li>2 Email Accounts</li>
-															<li>Unlimited Subdomains</li>
+															<li><?php echo $text['packages'][3]['characteristic-1']?></li>
+															<li><?php echo $text['packages'][3]['characteristic-2']?></li>
+															<li><?php echo $text['packages'][3]['characteristic-3']?></li>
+															<li><?php echo $text['packages'][3]['characteristic-4']?></li>
 													</ul>
 											</div>
 											<div class="plan-footer">
@@ -159,8 +163,8 @@
 												<i class="icon-user-following icons text-color-light"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="mb-2 text-5 text-color-light">Customer Support</h4>
-												<p class="mb-4 text-color-light opacity-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+												<h4 class="mb-2 text-5 text-color-light"><?php echo $text['technologies'][0]['technology_title']; ?></h4>
+												<p class="mb-4 text-color-light opacity-6"><?php echo $text['technologies'][0]['technology_description']; ?></</p>
 											</div>
 										</div>
 									</div>
@@ -170,8 +174,8 @@
 												<i class="icon-layers icons text-color-light"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="mb-2 text-5 text-color-light">Sliders</h4>
-												<p class="mb-4 text-color-light opacity-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+												<h4 class="mb-2 text-5 text-color-light"><?php echo $text['technologies'][1]['technology_title']; ?></h4>
+												<p class="mb-4 text-color-light opacity-6"><?php echo $text['technologies'][1]['technology_description']; ?></p>
 											</div>
 										</div>
 									</div>
@@ -183,8 +187,8 @@
 												<i class="icon-calculator icons text-color-light"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="mb-2 text-5 text-color-light">HTML5</h4>
-												<p class="mb-4 text-color-light opacity-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+												<h4 class="mb-2 text-5 text-color-light"><?php echo $text['technologies'][2]['technology_title']; ?></h4>
+												<p class="mb-4 text-color-light opacity-6"><?php echo $text['technologies'][2]['technology_description']; ?></p>
 											</div>
 										</div>
 									</div>
@@ -194,8 +198,8 @@
 												<i class="icon-star icons text-color-light"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="mb-2 text-5 text-color-light">Icons</h4>
-												<p class="mb-4 text-color-light opacity-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+												<h4 class="mb-2 text-5 text-color-light"><?php echo $text['technologies'][3]['technology_title']; ?></h4>
+												<p class="mb-4 text-color-light opacity-6"><?php echo $text['technologies'][3]['technology_description']; ?></p>
 											</div>
 										</div>
 									</div>
@@ -207,8 +211,8 @@
 												<i class="icon-drop icons text-color-light"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="mb-2 text-5 text-color-light">Colors</h4>
-												<p class="mb-0 text-color-light opacity-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+												<h4 class="mb-2 text-5 text-color-light"><?php echo $text['technologies'][4]['technology_title']; ?></h4>
+												<p class="mb-0 text-color-light opacity-6"><?php echo $text['technologies'][4]['technology_description']; ?></p>
 											</div>
 										</div>
 									</div>
@@ -218,8 +222,8 @@
 												<i class="icon-mouse icons text-color-light"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="mb-2 text-5 text-color-light">Buttons</h4>
-												<p class="mb-0 text-color-light opacity-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+												<h4 class="mb-2 text-5 text-color-light"><?php echo $text['technologies'][5]['technology_title']; ?></h4>
+												<p class="mb-0 text-color-light opacity-6"><?php echo $text['technologies'][5]['technology_description']; ?></p>
 											</div>
 										</div>
 									</div>

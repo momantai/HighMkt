@@ -1,13 +1,13 @@
 <?php
-function service(){
-$data = file_get_contents("json/diseño_web.json");
+function service($servicio, $idioma){
+echo $servicio;
+$data = file_get_contents("json/".$servicio.".json");
 $servicios = json_decode($data, true);
 
-//print_r($servicios['services']);
-foreach ($servicios['Design_web'] as $service) {
-  $result=$service['es'];
-
-  }
+foreach ($servicios[$servicio] as $service) {
+  $result=$service[$idioma];
+}
+echo $prueba;
   return $result;
 }
- ?>
+?>
