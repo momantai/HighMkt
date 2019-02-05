@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<?php include('lang.php'); ?>
+<?php include('lang.php');?>
+<?php include('service.php');?>
 <html lang="<?php echo $lang['option-lang-folder'] ?>">
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -157,13 +157,45 @@
                                                     <ul class="nav nav-pills flex-column flex-lg-row" id="mainNav">
                                                         <li class="dropdown">
                                                             <a class="dropdown-item active" href="/">
-                                                            <?php echo $lang['menu-option-index'] ?>
+                                                            <?php echo $lang['menu-option-index']?>
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a  class="dropdown-item dropdown-toggle" href="/services.php">
+                                                            <a  class="dropdown-item dropdown-toggle">
                                                             <?php echo $lang['menu-option-services'] ?>
                                                             </a>
+
+                                                            <ul class="dropdown-menu">
+                                                            </li>
+                                                            <li>
+                                                              <a class="dropdown-item" href="services.php?option=Design_web">
+                                                                <?php echo  $lang['Design-web'];
+
+                                                                ?>
+                                                            </a>
+                                                          </li>
+
+                                                            </li>
+                                                            <li>
+                                                              <a class="dropdown-item" href="services.php?option=Grapic_design">
+                                                                <?php echo  $lang['Grapic-design'];
+                                                                ?>
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <a class="dropdown-item" href="services.php?option=Social_media">
+                                                              <?php echo  $lang['Social-media'];
+                                                              ?>
+                                                          </a>
+                                                        </li>
+                                                        <li>
+                                                          <a class="dropdown-item" href="services.php?option=Social_events">
+                                                            <?php echo  $lang['Social-events'];
+                                                            ?>
+                                                        </a>
+                                                      </li>
+                                                            </ul>
+
                                                         </li>
                                                         <li class="dropdown">
                                                             <a class="dropdown-item" href="/portfolio.php">

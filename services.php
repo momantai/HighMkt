@@ -1,7 +1,9 @@
 <?php
     include('sections/header.php');
-    include('service.php');
-    $text=service();
+    if(isset($_GET['option'])){
+      $_SESSION['option']=$_GET['option'];
+    }
+    $text=service($_SESSION['option'],$_SESSION['lang']);
 ?>
 		<div class="body">
 			<div role="main" class="main">

@@ -20,7 +20,7 @@ $lang['thinking'] = "thinking";
 //Cabeceras
 
 $lang['contactus'] = "Contact</strong> Us";
-$lang['ouroffice'] = "Our <strong>Office</strong>"; 
+$lang['ouroffice'] = "Our <strong>Office</strong>";
 $lang['bussineshours'] = "Business <strong>Hours</strong>";
 $lang['address'] = "Address";
 $lang['phone'] = "Phone";
@@ -63,10 +63,12 @@ $lang['xt-special'] = "Como miembro PDI tienes acceso a  publicaciones que difun
 $lang['option-lang-folder'] = "en";
 
 
-//Call to action 
+//Call to action
 $lang['cta-become'] = 'BECOME A <strong class="font-weight-extra-bold">MEMBER</strong>!';
 $lang['cta-member'] = 'As a member you will enjoy a variety of <strong class="font-weight-extra-bold">benefits</strong> depending on your Membership Plan. You can chose from individual, family or business membership and take advantage of all the <strong class="font-weight-extra-bold">rewards.</strong>.';
 $lang['cta-started'] = "Get Started Now";
-
-
+$lang['Design-web']="Web Development";
+$lang['Grapic-design']="Grapic Design";
+$lang['Social-media']="Social Media";
+$lang['Social-events']="Social Events";
 ?>
