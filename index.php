@@ -32,13 +32,20 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="row mt-5 mt-lg-0">
-                            <div class="col-md-8 col-lg-6 text-center text-lg-left mx-auto">
-                                <img class="img-fluid m-3 my-0 mt-lg-5 pt-lg-5 " src="img/office/our-office-4.jpg" alt="Office" data-appear-animation="expandIn" data--delay="200">
+                            <div class="col-md-6 col-lg-5 text-lg-left text-center s-left hitem">
+                                <img class="img-fluid m-3 my-0 mt-lg-5 pt-lg-5 " src="img/somos/creatividad.svg" alt="Office" data-appear-animation="expandIn" data--delay="200">
                             </div>
-                            <div class="col-md-8 col-lg-6 pl-lg-0 text-center text-lg-left mx-auto">
-                                <img class="img-fluid m-3 my-0 " src="img/office/our-office-5.jpg" alt="Office" data-appear-animation="expandIn" data--delay="400">
-                                <img class="img-fluid m-3 my-0 " src="img/office/our-office-7.jpg" alt="Office" data-appear-animation="expandIn" data--delay="200">
+                            <div class="col-md-6 col-lg-4 pl-lg-0  text-lg-left text-center s-right hitem">
+                                <img class="img-fluid m-3 my-0 " src="img/somos/crecimiento.svg" alt="Office" data-appear-animation="expandIn" data--delay="400">
+                                <img class="img-fluid m-3 my-0 " src="img/somos/negocio.svg" alt="Office" data-appear-animation="expandIn" data--delay="200">
                             </div>
+
+                            <div class="somos s-second">
+                                <img class="img-fluid m-3 my-0  " src="img/somos/creatividad.svg" alt="Office" data-appear-animation="expandIn" data--delay="200">
+                                <img class="img-fluid m-3 my-0 " src="img/somos/crecimiento.svg" alt="Office" data-appear-animation="expandIn" data--delay="400">
+                                <img class="img-fluid m-3 my-0 " src="img/somos/negocio.svg" alt="Office" data-appear-animation="expandIn" data--delay="200">
+                            </div>
+
                         </div>
                     </div>
                 </div>
