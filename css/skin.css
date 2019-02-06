@@ -1,0 +1,208 @@
+a {
+	color: #a0388b;
+}
+
+a:hover {
+	color: #20a6f7;
+}
+
+a:focus {
+	color: #20a6f7;
+}
+
+a:active {
+	color: #088cdb;
+}
+
+html .text-color-primary,
+html .text-primary {
+	color: #a0388b !important;
+}
+
+html .text-color-dark,
+html .text-dark {
+	color: #212529 !important;
+}
+
+html .text-color-light,
+html .text-light {
+	color: #ffffff !important;
+}
+
+html .bg-color-primary,
+html .bg-primary {
+	background-color: #a0388b !important;
+}
+
+html .bg-color-light,
+html .bg-light {
+	background-color: #ffffff !important;
+}
+
+html .btn-primary {
+	background-color: #a0388b;
+	border-color: #a0388b #a0388b #077dc3;
+	color: #ffffff;
+}
+
+.nav-pills > li.active > a,
+.nav-pills .nav-link.active {
+	background-color: #a0388b;
+}
+
+.nav-pills > li.active > a:hover,
+.nav-pills .nav-link.active:hover,
+.nav-pills > li.active > a:focus,
+.nav-pills .nav-link.active:focus {
+	background-color: #a0388b;
+}
+
+.sort-source.sort-source-style-3 > li.active > a {
+	border-bottom-color: #a0388b !important;
+	color: #a0388b !important;
+}
+
+html .badge-dark {
+	background-color: #212529;
+}
+
+html .bg-color-light-scale-1 {
+	background-color: #f7f7f7 !important;
+}
+
+.thumb-info .thumb-info-type,
+.thumb-info .thumb-info-action-icon,
+.thumb-info-social-icons a,
+.thumbnail .zoom,
+.img-thumbnail .zoom,
+.thumb-info-ribbon {
+	background-color: #a0388b;
+}
+
+.list.list-icons li > [class*="fa-"]:first-child,
+.list.list-icons li a:first-child > [class*="fa-"]:first-child,
+.list.list-icons li > .icons:first-child,
+.list.list-icons li a:first-child > .icons:first-child {
+	color: #a0388b;
+	border-color: #a0388b;
+}
+
+html .list-primary.list-icons li > [class*="fa-"]:first-child,
+html .list-primary.list-icons li a:first-child > [class*="fa-"]:first-child,
+html .list-primary.list-icons li > .icons:first-child,
+html .list-primary.list-icons li a:first-child > .icons:first-child {
+	color: #a0388b;
+	border-color: #a0388b;
+}
+
+html .btn-primary:hover,
+html .btn-primary.hover {
+	background-color: #2cabf7;
+	border-color: #38b0f8 #38b0f8 #a0388b;
+	color: #ffffff;
+}
+
+html .btn-dark {
+	background-color: #212529;
+	border-color: #212529 #212529 #0a0c0d;
+	color: #ffffff;
+}
+
+html .btn-dark:hover,
+html .btn-dark.hover {
+	background-color: #32383e;
+	border-color: #383f45 #383f45 #212529;
+	color: #ffffff;
+}
+
+html .btn-outline.btn-dark {
+	color: #212529;
+	background-color: transparent;
+	background-image: none;
+	border-color: #212529;
+}
+
+html .btn-outline.btn-dark:hover,
+html .btn-outline.btn-dark.hover {
+	color: #ffffff;
+	background-color: #212529;
+	border-color: #212529;
+}
+
+#header .header-btn-collapse-nav {
+	background: #a0388b;
+}
+
+@media (min-width: 992px) {
+	#header .header-nav-main nav > ul > li > a {
+		color: #a0388b;
+	}
+
+	#header .header-nav-main nav > ul > li.open > a,
+	#header .header-nav-main nav > ul > li:hover > a {
+		background: #a0388b;
+    }
+    
+    #header .header-nav-main nav > ul > li.dropdown.open > a:before,
+	#header .header-nav-main nav > ul > li.dropdown:hover > a:before {
+		border-bottom-color: #a0388b;
+	}
+
+    #header .header-nav-main nav > ul:not(:hover) > li > a.active {
+		background-color: #a0388b;
+		color: #ffffff;
+    }
+    
+    #header .header-nav.header-nav-line nav > ul li:hover > a {
+		color: #a0388b;
+	}
+
+	#header .header-nav.header-nav-line nav > ul li:hover > a:before {
+		background: #a0388b;
+	}
+
+	#header .header-nav.header-nav-line nav > ul:not(:hover) li > a.active {
+		color: #a0388b;
+	}
+
+	#header .header-nav.header-nav-line nav > ul:not(:hover) li > a.active:before {
+		background: #a0388b;
+    }
+    
+}
+
+@media (max-width: 991px) {
+	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a {
+		color: #a0388b;
+	}
+
+	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a:active {
+		color: #a0388b;
+	}
+
+	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a.active {
+		background: #a0388b;
+	}
+
+	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a.active:focus,
+	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a.active:hover {
+		background: #a0388b;
+    }
+}
+
+.feature-box .feature-box-icon {
+	background-color: #a0388b;
+}
+
+html .feature-box-secondary .feature-box-icon {
+	background-color: #0c61e0;
+}
+
+.feature-box.feature-box-style-2 .feature-box-icon [class*="fa-"],
+.feature-box.feature-box-style-2 .feature-box-icon .icons {
+	color: #a0388b;
+}
+
+html .home-intro-quaternary {
+	background: #383f48;
+}

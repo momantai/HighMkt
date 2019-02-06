@@ -64,7 +64,7 @@ $lang['xt-special'] = "Como miembro PDI tienes acceso a  publicaciones que difun
 $lang['option-lang-folder'] = "es";
 
 //Call to action
-$lang['cta-become'] = 'CONVIÉRTASE EN <strong class="font-weight-extra-bold">MIEMBRO</strong>!';
+$lang['cta-become'] = '¡CONVIÉRTASE EN <strong class="font-weight-extra-bold">MIEMBRO</strong>!';
 $lang['cta-member'] = 'Como miembro disfrutará de una variedad de <strong class="font-weight-extra-bold">beneficios</strong> dependiendo de su Plan de Membresía. Puede elegir entre miembros individuales, familiares o de negocios y aprovechar todas las <strong class="font-weight-extra-bold">recompensas</strong>.';
 $lang['cta-started'] = "Empieza Ahora";
 $lang['Design-web']="Diseño Web";

@@ -18,7 +18,7 @@
 							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
 								<nav id="sub-menu">
 									<ul>
-										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> <?php echo $lang['menu-option-contact'] ?></a></li>
+										<li><i class="fas fa-angle-right"></i><a href="contact.php" class="ml-1 text-decoration-none"> <?php echo $lang['menu-option-contact'] ?></a></li>
 									</ul>
 								</nav>
 							</div>
@@ -61,7 +61,6 @@
 		<script src="js/theme.init.js"></script>
 		<!-- Examples -->
 		<script src="js/examples/examples.portfolio.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
 		<script>
 </body>
 </html>

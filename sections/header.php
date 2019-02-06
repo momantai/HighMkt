@@ -33,8 +33,6 @@
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="/css/theme.css">
 		<link rel="stylesheet" href="/css/theme-elements.css">
-		<!-- <link rel="stylesheet" href="/css/theme-blog.css"> -->
-		<!-- <link rel="stylesheet" href="/css/theme-shop.css"> -->
         <link rel="stylesheet" href="/css/Service.css">
 
 		<!-- Current Page CSS -->
@@ -42,25 +40,25 @@
 		<link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css"> -->
 		<link rel="stylesheet" href="/vendor/rs-plugin/css/navigation.css">
 
-		<!-- Demo CSS -->
-
-
 		<!-- Skin CSS -->
-		<link rel="stylesheet" href="/css/skins/skin-corporate-8.css">
+        <link rel="stylesheet" href="/css/skin.css">
 
 		<!-- Head Libs -->
         <script src="vendor/modernizr/modernizr.min.js"></script>
-        <link rel="stylesheet" href="/css/css.css?v=1.1"/>
+        <link rel="stylesheet" href="/css/css.css?v=1.10"/>
         <link rel="stylesheet" href="/iconservices/services.css">
 
         <script src='https://www.google.com/recaptcha/api.js?hl=<?php echo $lang['option-lang-folder'] ?>'></script>
+
+        <script type='text/javascript' src='http//platform-api.sharethis.com/js/sharethis.js#property=5c54a55758b97700119255fb&product=sticky-share-buttons' async='async'></script>
 </head>
 
 <body>
     <div class="body">
-        <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 164, 'stickySetTop': '-171px', 'stickyChangeLogo': false}">
-            <div class="header-body border-0">
-                <div class="header-top header-top-default border-bottom-0 bg-color-primary">
+        <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 164, 'stickySetTop': '-175px', 'stickyChangeLogo': false}">
+            <div class="header-body border-shadow">
+                <div class="header-top header-top-default border-bottom-0 color-bar diagonal-primary-bar">
+                <div class="diagonal-bar"><div class="d-bar">HighMKT</div></div>
                     <div class="container">
                         <div class="header-row py-2">
                             <div class="header-column justify-content-start">
@@ -81,7 +79,7 @@
                             </div>
                             <div class="header-column justify-content-end">
                                 <div class="header-row">
-                                    <ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean social-icons-icon-light">
+                                    <ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean">
                                         <li class="social-icons-facebook"><a href="https://www.facebook.com/HighMKT" rel="noopener" target="_blank"
                                                 title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                                         <li class="social-icons-twitter"><a href="https://twitter.com/@highmktstudio" rel="noopener" target="_blank"
@@ -156,12 +154,12 @@
                                                 <nav class="collapse">
                                                     <ul class="nav nav-pills flex-column flex-lg-row" id="mainNav">
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item active" href="/">
-                                                            <?php echo $lang['menu-option-index']?>
+                                                            <a class="dropdown-item <?php if($_SERVER['PHP_SELF'] === '/index.php') echo 'active' ?> " href="/">
+                                                            <?php echo $lang['menu-option-index'] ?>
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a  class="dropdown-item dropdown-toggle">
+                                                            <a  class="dropdown-item dropdown-toggle <?php if($_SERVER['PHP_SELF'] === '/services.php') echo 'active' ?>" href="/services.php">
                                                             <?php echo $lang['menu-option-services'] ?>
                                                             </a>
 
@@ -210,12 +208,12 @@
 
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item" href="/portfolio.php">
+                                                            <a class="dropdown-item <?php if($_SERVER['PHP_SELF'] === '/portfolio.php') echo 'active' ?>" href="/portfolio.php">
                                                             <?php echo $lang['menu-option-portfolio'] ?>
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item" href="/contact.php">
+                                                            <a class="dropdown-item <?php if($_SERVER['PHP_SELF'] === '/contact.php') echo 'active' ?>" href="/contact.php">
                                                             <?php echo $lang['menu-option-contact'] ?>
                                                             </a>
                                                         </li>
