@@ -71,4 +71,6 @@ $lang['Design-web']="Diseño Web";
 $lang['Grapic-design']="Diseño Grafico";
 $lang['Social-media']="Redes Sociales";
 $lang['Social-events']="Eventos sociales";
+$lang['Advertising']="Publicidad";
+$lang['Photography_and_video']="Fotografía y Video";
 ?>

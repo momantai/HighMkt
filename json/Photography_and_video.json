@@ -1,0 +1,182 @@
+{
+  "Photography_and_video":[
+    {
+        "es":{
+          "name":"titulo",
+          "description":"Description",
+          "services":[
+            {
+              "name":"Nombre1",
+              "subtitle":"sub-titulo1",
+              "description":"Descripcion1"
+            },
+            {
+              "name":"Nombre2",
+              "subtitle":"sub-titulo2",
+              "description":"Descripcion2"
+            },
+            {
+            "name":"Nombre3",
+            "subtitle":"sub-titulo3",
+            "description":"Descripcion3"
+            }
+            ],
+            "title_packages":"Titulo-paquetes",
+            "subtitle_packages":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "packages":[
+              {
+                "title_packages":"Nombre1",
+                "price":"00",
+                "subtitle_packages":"sub-titulo1",
+                "characteristic-1":"Descripcion1",
+                "characteristic-2":"Descripcion2",
+                "characteristic-3":"Descripcion3",
+                "characteristic-4":"Descripcion4"
+              },
+              {
+                "title_packages":"Nombre1",
+                "price":"00",
+                "subtitle_packages":"sub-titulo1",
+                "characteristic-1":"Descripcion1",
+                "characteristic-2":"Descripcion2",
+                "characteristic-3":"Descripcion3",
+                "characteristic-4":"Descripcion4"
+              },
+              {
+                "title_packages":"Nombre1",
+                "price":"00",
+                "subtitle_packages":"sub-titulo1",
+                "characteristic-1":"Descripcion1",
+                "characteristic-2":"Descripcion2",
+                "characteristic-3":"Descripcion3",
+                "characteristic-4":"Descripcion4"
+              },
+              {
+                "title_packages":"Nombre1",
+                "price":"00",
+                "subtitle_packages":"sub-titulo1",
+                "characteristic-1":"Descripcion1",
+                "characteristic-2":"Descripcion2",
+                "characteristic-3":"Descripcion3",
+                "characteristic-4":"Descripcion4"
+              }
+            ],
+              "technologies":[
+                {
+                  "technology_title":"Tec-1",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                  "technology_title":"Tec-2",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                  "technology_title":"Tec-3",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                  "technology_title":"Tec-4",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                  "technology_title":"Tec-5",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                  "technology_title":"Tec-6",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+              ]
+            },
+
+
+        "en":{
+          "name":"title",
+          "description":"Description",
+          "services":[
+            {
+              "name":"Nombre1",
+              "subtitle":"sub-titulo1",
+              "description":"Descripcion1"
+            },
+            {
+              "name":"Nombre2",
+              "subtitle":"sub-titulo2",
+              "description":"Descripcion2"
+            },
+            {
+            "name":"Nombre3",
+            "subtitle":"sub-titulo3",
+            "description":"Descripcion3"
+            }
+            ],
+            "title_packages":"Titulo-paquetes",
+            "subtitle_packages":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "packages":[
+              {
+                "title_packages":"Nombre1",
+                "price":"00",
+                "subtitle_packages":"sub-titulo1",
+                "characteristic-1":"Descripcion1",
+                "characteristic-2":"Descripcion2",
+                "characteristic-3":"Descripcion3",
+                "characteristic-4":"Descripcion4"
+              },
+              {
+                "title_packages":"Nombre1",
+                "price":"00",
+                "subtitle_packages":"sub-titulo1",
+                "characteristic-1":"Descripcion1",
+                "characteristic-2":"Descripcion2",
+                "characteristic-3":"Descripcion3",
+                "characteristic-4":"Descripcion4"
+              },
+              {
+                "title_packages":"Nombre1",
+                "price":"00",
+                "subtitle_packages":"sub-titulo1",
+                "characteristic-1":"Descripcion1",
+                "characteristic-2":"Descripcion2",
+                "characteristic-3":"Descripcion3",
+                "characteristic-4":"Descripcion4"
+              },
+              {
+                "title_packages":"Nombre1",
+                "price":"00",
+                "subtitle_packages":"sub-titulo1",
+                "characteristic-1":"Descripcion1",
+                "characteristic-2":"Descripcion2",
+                "characteristic-3":"Descripcion3",
+                "characteristic-4":"Descripcion4"
+              }
+            ],
+              "technologies":[
+                {
+                  "technology_title":"Tec-1",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                  "technology_title":"Tec-2",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                  "technology_title":"Tec-3",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                  "technology_title":"Tec-4",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                  "technology_title":"Tec-5",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                {
+                  "technology_title":"Tec-6",
+                  "technology_description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+              ]
+            }
+    }
+  ]
+}

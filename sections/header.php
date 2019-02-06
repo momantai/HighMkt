@@ -194,6 +194,18 @@
                                                             ?>
                                                         </a>
                                                       </li>
+                                                      <li>
+                                                        <a class="dropdown-item" href="services.php?option=Advertising">
+                                                          <?php echo  $lang['Advertising'];
+                                                          ?>
+                                                      </a>
+                                                    </li>
+                                                    <li>
+                                                      <a class="dropdown-item" href="services.php?option=Photography_and_video">
+                                                        <?php echo  $lang['Photography_and_video'];
+                                                        ?>
+                                                    </a>
+                                                  </li>
                                                             </ul>
 
                                                         </li>
