@@ -50,6 +50,8 @@
 
         <script src='https://www.google.com/recaptcha/api.js?hl=<?php echo $lang['option-lang-folder'] ?>'></script>
 
+        <link rel="stylesheet" href="slider.css">
+
         <script type='text/javascript' src='http//platform-api.sharethis.com/js/sharethis.js#property=5c54a55758b97700119255fb&product=sticky-share-buttons' async='async'></script>
 </head>
 
