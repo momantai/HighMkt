@@ -7,7 +7,6 @@ $servicios = json_decode($data, true);
 foreach ($servicios[$servicio] as $service) {
   $result=$service[$idioma];
 }
-echo $prueba;
   return $result;
 }
 ?>

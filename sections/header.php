@@ -161,7 +161,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a  class="dropdown-item dropdown-toggle <?php if($_SERVER['PHP_SELF'] === '/services.php') echo 'active' ?>" href="/services.php">
+                                                            <a  class="dropdown-item dropdown-toggle <?php if($_SERVER['PHP_SELF'] === '/services.php') echo 'active' ?>">
                                                             <?php echo $lang['menu-option-services'] ?>
                                                             </a>
 

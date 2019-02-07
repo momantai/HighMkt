@@ -14,7 +14,7 @@
 											<h1 class="text-dark font-weight-bold text-9 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="100"><?php echo $lang['portfolio'] ?></h2>
 										</div>
 									</div>
-									
+
 								</div>
 							</div>
 
@@ -55,7 +55,7 @@
 											<a href="#" data-href="projects/<?php echo $lang['option-lang-folder']?>/diseno-web-high.php" data-ajax-on-page>
 												<span class="thumb-info thumb-info-lighten border-radius-0">
 													<span class="thumb-info-wrapper border-radius-0">
-                                                        <img src="projects/img/localhost_contact.php.png" class="img-fluid border-radius-0" alt="">
+                                                        <img src="projects/img/diseno-web-high.php.png" class="img-fluid border-radius-0" alt="">
 														<span class="thumb-info-title">
 															<span class="thumb-info-inner">Diseño web HighMarketing</span>
 															<span class="thumb-info-type">Web site</span>
@@ -65,7 +65,7 @@
 											</a>
 										</div>
 									</div>
-									
+
 								</div>
 							</div>
 

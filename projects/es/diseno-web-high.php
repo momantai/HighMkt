@@ -42,7 +42,7 @@
 			<div class="img-thumbnail border-0 border-radius-0 p-0 d-block">
 				<img src="projects/img/localhost_contact.php.png" class="img-fluid border-radius-0" alt="">
 			</div>
-			
+
 			<!-- <hr class="solid my-5">
 
 			<strong class="text-uppercase text-1 mr-3 text-dark float-left position-relative top-2">Share</strong> -->
