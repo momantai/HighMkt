@@ -318,22 +318,18 @@
 			<h3>Portafolio</h3>
 		</div>
 		<div class="services">
-
+	<?php for ($i=0; $i<sizeof($text['Portfolio']); $i++): ?>
 			<div class="service">
-
+        <a href="#">
+        <div class="image">
+          <img src="<?php echo $text['Portfolio'][$i]['image'] ; ?>" class="img-fluid border-radius-0" alt="">
+          <div class="text">
+            <p><?php echo $text['Portfolio'][$i]['name']; ?></p>
+          </div>
+        </div>
+        </a>
 			</div>
-			<div class="service">
-
-			</div>
-			<div class="service">
-
-			</div>
-
-			<div class="service">
-
-			</div>
-		</div>
-
+    <?php endfor; ?>
 	</div>
 
 </div>
