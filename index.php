@@ -1,4 +1,5 @@
-<?php 
+<?php
+    $description = "High Marketing Studio, agencia de marketing & design studio en Puerto Vallarta.";
     include('sections/header.php');
 ?>
 
@@ -16,12 +17,12 @@
 					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 4000, 'gridwidth': 1170, 'gridheight': 670, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': false }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
 						<ul>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="https://destinonegocio.com/wp-content/uploads/2015/10/ico-destinonegocio-estudio-de-mercado-istock-getty-images-1030x687.jpg"  
+								<!-- <img src="https://destinonegocio.com/wp-content/uploads/2015/10/ico-destinonegocio-estudio-de-mercado-istock-getty-images-1030x687.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
+									class="rev-slidebg"> -->
 				
 								
 								<div class="tp-caption text-color-light font-weight-normal"
@@ -50,12 +51,12 @@
 								
 							</li>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="https://cdn-images-1.medium.com/max/1600/1*D8D29EgnssiaaIA6crhcbA.png"  
+								<!-- <img src="https://cdn-images-1.medium.com/max/1600/1*D8D29EgnssiaaIA6crhcbA.png"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
+									class="rev-slidebg"> -->
 				
 				
 								<div class="tp-caption font-weight-extra-bold" style="color:#ffd518"
@@ -66,12 +67,12 @@
 									data-lineheight="['55','55','55','95']">MARKETING & DESIGN STUDIO</div>
 							</li>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="https://www.pixelero.com.mx/wp-content/uploads/2013/04/prismagram-wall.jpg"  
+								<!-- <img src="https://www.pixelero.com.mx/wp-content/uploads/2013/04/prismagram-wall.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
+									class="rev-slidebg"> -->
 				
 				
 								<div class="tp-caption font-weight-extra-bold" style="color:#ffd518"
@@ -82,12 +83,12 @@
 									data-lineheight="['55','55','55','95']">DISEÑO GRÁFICO</div>
 							</li>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="https://bloomsocialmedia.es/wp-content/uploads/2018/02/programacion-web.jpg"  
+								<!-- <img src="https://bloomsocialmedia.es/wp-content/uploads/2018/02/programacion-web.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
+									class="rev-slidebg"> -->
 				
 				
 								<div class="tp-caption font-weight-extra-bold" style="color:#ffd518"
@@ -98,12 +99,12 @@
 									data-lineheight="['55','55','55','95']">DESARROLLO WEB</div>
 							</li>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="https://pgiovas.com/wp-content/uploads/2018/02/Redes-sociales-para-tu-negocio-como-hacer-que-jueguen-en-tu-favor.jpg"  
+								<!-- <img src="https://pgiovas.com/wp-content/uploads/2018/02/Redes-sociales-para-tu-negocio-como-hacer-que-jueguen-en-tu-favor.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
+									class="rev-slidebg"> -->
 				
 				
 								<div class="tp-caption font-weight-extra-bold" style="color:#ffd518"
@@ -114,12 +115,12 @@
 									data-lineheight="['55','55','55','95']">REDES SOCIALES</div>
 							</li>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="http://www.disegnia.com/wp-content/uploads/bfi_thumb/MAGAZINE-PSD-MOCKUP-m9hftwzdho37v782smyqq6dus1w1ek2vquw44wfx54.jpg"  
+								<!-- <img src="http://www.disegnia.com/wp-content/uploads/bfi_thumb/MAGAZINE-PSD-MOCKUP-m9hftwzdho37v782smyqq6dus1w1ek2vquw44wfx54.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
+									class="rev-slidebg"> -->
 				
 				
 								<div class="tp-caption font-weight-extra-bold" style="color:#ffd518"
@@ -130,12 +131,12 @@
 									data-lineheight="['55','55','55','95']">PUBLICIDAD</div>
 							</li>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="https://www.reasonwhy.es/sites/default/files/fotografia-reasonwhy.es_.jpg"  
+								<!-- <img src="https://www.reasonwhy.es/sites/default/files/fotografia-reasonwhy.es_.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
+									class="rev-slidebg"> -->
 				
 				
 								<div class="tp-caption font-weight-extra-bold" style="color:#ffd518"
@@ -146,12 +147,12 @@
 									data-lineheight="['55','55','55','95']">FOTOGRAFÍA</div>
 							</li>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="https://houserandhouser.com/wp-content/uploads/2017/06/video_yay.jpg"  
+								<!-- <img src="https://houserandhouser.com/wp-content/uploads/2017/06/video_yay.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
+									class="rev-slidebg"> -->
 				
 				
 								<div class="tp-caption font-weight-extra-bold" style="color:#ffd518"

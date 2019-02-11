@@ -40,7 +40,7 @@
 		<div class="col-sm-6">
 
 			<div class="img-thumbnail border-0 border-radius-0 p-0 d-block">
-				<img src="projects/img/localhost_contact.php.png" class="img-fluid border-radius-0" alt="">
+				<img src="projects/img/diseno-web-high.php.png" class="img-fluid border-radius-0" alt="">
 			</div>
 
 			<!-- <hr class="solid my-5">

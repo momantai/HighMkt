@@ -21,16 +21,6 @@ a:hover.dropdown-item::before {
     margin-top: 15px;
 }
 
-/* .linklenguage {
-    justify-self: end;
-} */
-
-/* @media (max-width: 575px) {
-    .linklenguage {
-        justify-self: end;
-    }
-} */
-
 #header .header-menu {
 	display: -webkit-box;
 	display: -ms-flexbox;

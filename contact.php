@@ -1,4 +1,7 @@
-<?php include('sections/header.php'); ?>
+<?php 
+	$description = "Contacto de agencia de marketing and design, diseño grafico y desarrollo web en Puerto Vallarta.";
+	include('sections/header.php'); 
+?>
 
 
 <div role="main" class="main">
@@ -88,7 +91,6 @@
 							<div class="lead">
 							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHighMKT%2F&tabs=timeline&width=290&height=250&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="290" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 							</div>
-							<div class="sharethis-inline-share-buttons"></div>
 						</div>
 
 					</div>
@@ -98,8 +100,7 @@
 			</div>
 </div>
 
-<script src="formul.js"></script>
-<!-- <script src='https://www.google.com/recaptcha/api.js?render=6LeLR44UAAAAAEdwWK0U6RbYJ12I0hwKEGaXYfzc'></script> -->
+<script src="formul.js" async></script>
 
 <?php include "call-to-action.php" ?>
 <?php include('sections/footer.php'); ?>

@@ -75,5 +75,4 @@
 				</div>
 
 <!-- Aquí termina el HTML -->
-
 <?php include "sections/footer.php" ?>

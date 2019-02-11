@@ -12,6 +12,8 @@
     <!-- <meta property="og:title"              content="<?php echo $lang['title'] ?>" /> -->
     <meta property="og:description"        content="How much does culture influence creative thinking?" />
     <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    
+    <meta name="Description" content="<?php echo $description ?>">
 
     <link rel="shortcut icon" href="img/high-logo.ico" type="image/x-icon">
 
@@ -25,9 +27,9 @@
 		<link rel="stylesheet" href="/vendor/fontawesome-free/css/all.min.css">
 		<!-- <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.min.css">  -->
 		<link rel="stylesheet" href="/vendor/animate/animate.min.css">
-		<link rel="stylesheet" href="/vendor/owl.carousel/assets/owl.carousel.min.css">
+		<!-- <link rel="stylesheet" href="/vendor/owl.carousel/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="/vendor/owl.carousel/assets/owl.theme.default.min.css">
-		<link rel="stylesheet" href="/vendor/magnific-popup/magnific-popup.min.css">
+		<link rel="stylesheet" href="/vendor/magnific-popup/magnific-popup.min.css"> -->
 
 
 		<!-- Theme CSS -->
@@ -48,11 +50,12 @@
         <link rel="stylesheet" href="/css/css.css?v=1.10"/>
         <link rel="stylesheet" href="/iconservices/services.css">
 
-        <script src='https://www.google.com/recaptcha/api.js?hl=<?php echo $lang['option-lang-folder'] ?>'></script>
+        
+        <?php if($_SERVER['PHP_SELF'] === '/contact.php') echo "<script src='https://www.google.com/recaptcha/api.js?hl={$lang['option-lang-folder']}'></script>"?>
+
 
         <link rel="stylesheet" href="slider.css">
-
-        <script type='text/javascript' src='http//platform-api.sharethis.com/js/sharethis.js#property=5c54a55758b97700119255fb&product=sticky-share-buttons' async='async'></script>
+        
 </head>
 
 <body>
